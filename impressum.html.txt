@@ -1,0 +1,117 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum – Wheeltalk e. V.</title>
+
+<style>
+    :root {
+        --bg: #ffffff;
+        --text: #000000;
+        --accent: #003366;
+    }
+
+    body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        line-height: 1.7;
+    }
+
+    main {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 0 24px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        color: var(--accent);
+    }
+
+    p, address {
+        margin: 6px 0;
+        font-style: normal;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: underline;
+    }
+
+    a:focus,
+    a:hover {
+        outline: 3px solid #000;
+        outline-offset: 3px;
+    }
+
+    /* Bessere Lesbarkeit bei Zoom */
+    @media (max-width: 600px) {
+        body {
+            font-size: 20px;
+        }
+    }
+</style>
+</head>
+
+<body>
+<main id="content" role="main">
+    <h1>Impressum</h1>
+
+    <section aria-labelledby="tmg">
+        <h2 id="tmg">Angaben gemäß § 5 TMG</h2>
+        <address>
+            Wheeltalk e. V.<br>
+            Bergstraße 85<br>
+            29664 Walsrode<br>
+            Deutschland
+        </address>
+    </section>
+
+    <section aria-labelledby="vorstand">
+        <h2 id="vorstand">Vertreten durch den Vorstand gemäß § 26 BGB</h2>
+        <p>Fiona Schmidt<br>
+        Ralph Herbert Praßel</p>
+    </section>
+
+    <section aria-labelledby="kontakt">
+        <h2 id="kontakt">Kontakt</h2>
+        <p>
+            E-Mail:
+            <a href="mailto:info@wheeltalk-verein.de">
+                info@wheeltalk-verein.de
+            </a>
+        </p>
+        <p>
+            Telefon:
+            <a href="tel:+4915206312408">
+                +49 15206312408
+            </a>
+        </p>
+    </section>
+
+    <section aria-labelledby="register">
+        <h2 id="register">Registereintrag</h2>
+        <p>Eingetragen im Vereinsregister</p>
+        <p>Registergericht: Amtsgericht Walsrode</p>
+        <p>Registernummer: VR Platzhalter</p>
+    </section>
+
+    <section aria-labelledby="gemein">
+        <h2 id="gemein">Gemeinnützigkeit</h2>
+        <p>Der Verein ist als gemeinnützig anerkannt.</p>
+    </section>
+
+</main>
+</body>
+</html>
